@@ -19,7 +19,9 @@ import java.io.RandomAccessFile;
  */
 
 public class DownloadTask extends AsyncTask<String, Integer, Integer> {
+    
     private DownloadListener listener;
+
     public static final int TYPE_SUCCESS = 0;
 
     public static final int TYPE_FAILED = 1;
